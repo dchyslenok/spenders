@@ -1,0 +1,49 @@
+$enable-average: dynamic(true);
+
+$base-color: $primary-color-dark;
+
+$primary-color-dark:   #0097A7;
+$primary-color:        #00BCD4;
+$primary-color-light:  #B2EBF2;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #03A9F4;
+$primary-text-color:   #212121;
+$secondary-text-color: #727272;
+$divider-color:        #B6B6B6;
+
+$highlight-color: $primary-color;
+$highlight-color2: lighten($highlight-color, 20%);
+$highlight-color3: darken($highlight-color, 10%);
+
+$gold-color: #ffd700;
+$gold-color2: lighten($gold-color, 20%);
+$gold-color3: darken($gold-color, 20%);
+
+
+$gold-color: #ffd700;
+
+$material-color-black: rgba(0, 0, 0, 0.87); // text
+$material-color-black-secondary: rgba(0, 0, 0, 0.54); // secondary text and icons
+$material-color-black-hint: rgba(0, 0, 0, 0.26); // disabled and hint text
+$material-color-black-dividers: rgba(0, 0, 0, 0.12); // dividers
+
+$material-color-white: rgba(255, 255, 255, 1); // text and icons
+$material-color-white-secondary: rgba(255, 255, 255, 0.7); // secondary text
+$material-color-white-hint: rgba(255, 255, 255, 0.3); // disabled and hint text
+$material-color-white-dividers: rgba(255, 255, 255, 0.12); // dividers
+
+$material-icon-color-black-active: $material-color-black-secondary;
+$material-icon-color-black-inactive: $material-color-black-hint;
+
+$material-icon-color-white-active: $material-color-white;
+$material-icon-color-white-inactive: $material-color-white-hint;
+
+$button-toolbar-background-gradient: null;
+$button-toolbar-background-gradient-over: null;
+$button-toolbar-background-gradient-pressed: null;
+
+$button-toolbar-inner-border-width-over: 0px;
+
+$include-button-default-toolbar-medium-ui: false;
+
+

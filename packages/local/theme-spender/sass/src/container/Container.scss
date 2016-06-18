@@ -1,0 +1,40 @@
+
+$responsivecolumn-item-spacing: dynamic(10px);
+
+.large-100 {
+  @include responsivecolumn-item(100%);
+}
+
+.large-50 {
+  @include responsivecolumn-item(50%);
+}
+
+.large-30 {
+  @include responsivecolumn-item(30%);
+}
+
+.large-20 {
+  @include responsivecolumn-item(20%);
+}
+
+.x-responsivecolumn-small {
+  > .small-100 {
+    @include responsivecolumn-item(100%);
+  }
+  > .small-50 {
+    @include responsivecolumn-item(50%);
+  }
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color #{$inset};
+  -moz-box-shadow: $top $left $blur $color #{$inset};
+  box-shadow: $top $left $blur $color #{$inset};
+}
+@mixin text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4) {
+  -webkit-text-shadow: $shadow-1, $shadow-2, $shadow-3, $shadow-4;
+  -moz-text-shadow: $shadow-1, $shadow-2, $shadow-3, $shadow-4;
+  -ms-text-shadow: $shadow-1, $shadow-2, $shadow-3, $shadow-4; /* IE 10+ */
+  -o-text-shadow: $shadow-1, $shadow-2, $shadow-3, $shadow-4;
+  text-shadow: $shadow-1, $shadow-2, $shadow-3, $shadow-4;
+}

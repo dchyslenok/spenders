@@ -1,0 +1,319 @@
+.labelRed {
+    color : red;
+}
+
+.labelOrange {
+    color : orange;
+}
+
+.labelGreen {
+    color : green;
+}
+
+.menu-holder-size:before {
+    font-size: 24px;
+}
+
+.menu-size:before {
+    font-size: 32px;
+}
+
+.x2:before {
+    font-size: 24px;
+}
+
+.about-size:before {
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome/fontawesome-webfont.eot?v=4.5.0');
+    src: url('../fonts/FontAwesome/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),
+    url('../fonts/FontAwesome/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),
+    url('../fonts/FontAwesome/fontawesome-webfont.woff?v=4.5.0') format('woff'),
+    url('../fonts/FontAwesome/fontawesome-webfont.ttf?v=4.5.0') format('truetype'),
+    url('../fonts/FontAwesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'FontAwesome' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-fparser:before {
+    content: "\f163"
+}
+
+.ic-btn-login:before {
+    content: "\f084"
+}
+
+.ic-login:before {
+    content: "\f023"
+}
+
+.ic-undo:before {
+    content: "\f112"
+}
+
+.ic-redo:before {
+    content: "\f064"
+}
+
+.ic-cut:before {
+    content: "\f0c4"
+}
+
+.ic-crop:before {
+    content: "\f125"
+}
+
+.ic-expand:before {
+    content: "\f065"
+}
+
+.ic-collapse:before {
+    content: "\f066"
+}
+
+.ic-magic:before {
+    content: "\f0d0"
+}
+
+.ic-sliders:before {
+    content: "\f1de"
+}
+
+.ic-repeat:before {
+    content: "\f01e"
+}
+
+.ic-repeat-left:before {
+    content: "\f0e2"
+}
+
+.ic-email_logs:before {
+    content: "\f1d8"
+}
+
+.ic-menu:before {
+    content: "\f0c9"
+}
+
+.ic-menu-x2:before {
+    content: "\f0c9";
+    font-size: 2em;
+}
+
+.ic-sign-out:before {
+    content: "\f08b"
+}
+
+.ic-nodeLocked:before {
+    content: "\f023"
+}
+
+.ic-nodeClosed:before {
+    content: "\f114";
+}
+
+.ic-nodeOpened:before {
+    content: "\f115";
+}
+
+.ic-redirectIcon:before {
+    content: "\f0a4";
+}
+
+.ic-contentIcon:before {
+    content: "\f247";
+}
+
+.ic-linkIcon:before {
+    content: "\f0c1";
+}
+
+.ic-generatedIcon:before {
+    content: "\f013";
+}
+
+.ic-httpsIcon:before {
+    content: "\f084";
+}
+
+.ic-exit:before {
+    content: "\f011";
+}
+
+.ic-bumpLogo:before {
+    content: "\f286";
+}
+
+.ic-defaultIcon:before {
+    /*not icon*/
+}
+
+.ic-actions:before {
+    content: "\f085";
+}
+
+.ic-edit:before {
+    content: "\f044";
+}
+
+.ic-add:before {
+    content: "\f067";
+}
+
+.ic-view:before {
+    content: "\f248";
+}
+
+.ic-system:before {
+    content: "\f013";
+}
+
+.ic-export:before {
+    content: "\f0c5";
+}
+
+.ic-copy:before {
+    content: "\f0c5";
+}
+
+.ic-paste:before {
+    content: "\f0ea";
+}
+
+.ic-del:before {
+    content: "\f00d";
+}
+
+.ic-purge:before {
+    content: "\f021";
+}
+
+.ic-reload:before {
+    content: "\f021";
+}
+
+.ic-reset:before {
+    content: "\f129";
+}
+
+.ic-upload:before {
+    content: "\f093";
+}
+
+.ic-download:before {
+    content: "\f019";
+}
+
+.ic-compress:before {
+    content: "\f1c6";
+}
+
+.ic-quicklinks:before {
+    content: "\f061";
+}
+
+.ic-browse:before {
+    content: "\f115";
+}
+
+.ic-link:before {
+    content: "\f0c1";
+}
+
+.ic-print:before {
+    content: "\f02f";
+}
+
+.ic-playback:before {
+    /*not icon*/
+}
+
+.ic-tablerows:before {
+    content: "\f0ce";
+}
+
+.ic-save:before {
+    content: "\f0c7";
+}
+
+.ic-save_exit:before {
+    content: "\f00c";
+}
+
+.ic-close:before {
+    content: "\f00d";
+}
+
+.ic-stop:before {
+    content: "\f28d";
+}
+
+.ic-plus:before {
+    content: "\f196";
+}
+
+.ic-minus:before {
+    content: "\f147";
+}
+
+.ic-find:before {
+    content: "\f1e5";
+}
+
+.ic-checked:before {
+    content: "\f046";
+}
+
+.ic-unchecked:before {
+    content: "\f096";
+}
+
+.ic-whitelist:before {
+    content: "\f016";
+}
+
+.ic-sync:before {
+    content: "\f021";
+}
+
+.ic-preferences:before {
+    content: "\f0ad";
+}
+
+.ic-pdf:before {
+    content: "\f1c1";
+}
+
+.ic-youtubeIcon:before {
+    content: "\f167";
+}
+
+
+

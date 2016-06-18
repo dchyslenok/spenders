@@ -1,0 +1,59 @@
+$panel-header-background-color :#fff;
+//$panel-header-color:#404040;
+
+$panel-header-font-size: 18px !default;
+$panel-header-line-height: 18px !default;
+
+//.#{$prefix}panel-header {
+//  @extend .z-depth-1;
+//}
+
+//.#{$prefix}panel {
+//  @extend .z-depth-1;
+//}
+
+/**
+ * Generates a set of style rules for the "navigation" panel UI.
+ */
+
+@include extjs-panel-ui(
+        $ui: 'main',
+        $ui-body-background-color: #eee
+);
+
+@include extjs-panel-ui(
+        $ui: 'material-z1'
+);
+
+@include extjs-panel-ui(
+        $ui: 'material-z2'
+);
+
+@include extjs-panel-ui(
+        $ui: 'material-z3'
+);
+
+
+.x-panel-material-z1 {
+  @extend .z-depth-1;
+  @include border-radius(2px);
+}
+
+.x-panel-material-z2 {
+   @extend .z-depth-2;
+  @include border-radius(2px);
+ }
+
+.x-panel-material-z3 {
+  @extend .z-depth-3;
+  @include border-radius(2px);
+}
+
+.x-toolbar-footer {
+  padding: 6px 0 6px 6px;
+  border-style: solid;
+  border-color: #cfcfcf;
+  border-width: 0;
+  background-image: none;
+  background-color: transparent;
+}
