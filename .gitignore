@@ -48,5 +48,14 @@ fabric.properties
 .idea/
 
 ext/
-build/
+build/development
+build/temp
+build/development/resources/ext
 logs/
+/.sencha/
+sass/
+
+packages/local/theme-spender/build/
+/build/production/App/resources/ext/
+
+/build/production/App/resources/font-awesome/

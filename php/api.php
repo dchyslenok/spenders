@@ -2,6 +2,7 @@
 require('config.php');
 header('Content-Type: text/javascript');
 
+// convert API config to Ext Direct spec
 $API = get_extdirect_api();
 $actions = array();
 

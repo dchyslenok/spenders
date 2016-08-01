@@ -58,7 +58,7 @@ Ext.define('App.view.main.Main', {
                     iconAlign: 'top',
                     textAlign: 'center',
                     flex: 1
-                },
+                }
                 // 'width < 768 && tall': {
                 //     visible: false
                 // },

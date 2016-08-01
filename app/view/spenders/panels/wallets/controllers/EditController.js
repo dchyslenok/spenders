@@ -45,7 +45,7 @@ Ext.define('App.view.spenders.panels.wallets.controllers.EditController', {
             icon: Ext.Msg.QUESTION,
             fn: function(btn) {
                 if (btn === 'yes') {
-                    Wallets.delete(form.getForm().findField('ID').getValue(), function (result, event, success, options) {
+                    Wallets['delete'](form.getForm().findField('ID').getValue(), function (result, event, success, options) {
                         if (success) {
                             Ext.StoreManager.lookup('wallets').reload();
                             me.getView().hide();
@@ -54,7 +54,6 @@ Ext.define('App.view.spenders.panels.wallets.controllers.EditController', {
                             Ext.Msg.alert('Failed', result ? result.message : 'No response');
                         }
                     }, this);
-                } else if (btn === 'no') {
                 }
             }
         });

@@ -9,6 +9,7 @@ Ext.application({
     extend: 'App.Application',
 
     requires: [
+        'Ext.*',
         'App.view.main.Main'
     ],
 

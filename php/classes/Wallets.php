@@ -171,4 +171,6 @@ class Wallets extends db
     public function disable()
     {
     }
+
+
 }

@@ -71,7 +71,7 @@ Ext.define('App.view.spenders.panels.spenders.controllers.SpendController', {
             icon: Ext.Msg.QUESTION,
             fn: function(btn) {
                 if (btn === 'yes') {
-                    Spenders.delete(form.getForm().findField('SPENDER_ID').getValue(), function (result, event, success, options) {
+                    Spenders['delete'](form.getForm().findField('SPENDER_ID').getValue(), function (result, event, success, options) {
                         if (success) {
                             Ext.StoreManager.lookup('spenders').reload();
                             me.getView().hide();
